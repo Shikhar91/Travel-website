@@ -1,0 +1,60 @@
+body{
+margin: 0%;
+padding: 0%;
+height: 100vh;
+overflow-x: hidden;
+
+}
+.anchor-head:hover{
+border:2px solid black ;
+box-shadow: 2px 2px 2px;
+transition: 0.10s;
+border-radius: 5px 5px;
+}
+.back{
+    height:40vh   ;
+    width: 100%;
+    background-image:url("../image/contact-tumbnail.jpg") ;
+    background-size: cover;
+    
+             
+}
+nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.navbar{
+    background-color:transparent;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.destination{
+    padding-top: 100px;
+}
+.destination-head{
+    font-size:50px;
+    color: white;
+}
+
+.destination p{
+    color: white;
+    font-size: 18px;
+}
+
+.contact-pins{
+    font-size: 25px;
+}
+
+.contact-info{
+    margin-left: 30px;
+}

@@ -1,0 +1,133 @@
+body{
+margin: 0%;
+padding: 0%;
+height: 100vh;
+overflow-x: hidden;
+}
+.anchor-head:hover{
+border:2px solid black ;
+box-shadow: 2px 2px 2px;
+transition: 0.10s;
+border-radius: 5px 5px;
+}
+.back{
+    height:100vh   ;
+    width: 100%;
+    background-image:url("../image/1st_img.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;            
+    }
+nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    
+    }
+.navbar{
+    background-color:transparent;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    }
+.heading{
+    color:#3E5F7E;
+    font-family: Montserrat;
+    
+    }
+.head-p{
+    font-family: roboto;
+    }
+.head-form{
+    margin-top: 100px;
+    margin-left: 400px;
+    }
+.head-input{
+    border:2px solid black;
+    border-radius: 8px 8px;
+    height: 35px;
+    background-color: transparent;
+    box-shadow: 2px 2px 2px;
+    }
+
+/* section 2 */
+
+
+.destination_heading{
+    font-size: 35px;
+}
+
+.destination_description{
+    font-size: 15px;
+}
+
+.destinations{
+    height: 350px;
+    border: none;
+
+}
+.destination_cards:hover{
+   transform: translateY(-7px);
+   transition-duration: .5s;
+}
+.destinations img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.popular_heading{
+    font-size: 35px;
+
+}
+
+.popular_description{
+    font-size: 15px;
+}
+
+.popular_cards:hover{
+    transform: translateY(-7px);
+    transition-duration: .5s;
+}
+
+
+.popular_card_body{
+    height: 350px;
+}
+
+.popular_card_body img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.choose_heading{
+    font-size: 35px;
+    
+}
+
+.choose_cards{
+    margin-top:100px;
+}
+
+
+.choose_price span{
+    font-size: 26px;
+}
+
+.choose{
+    padding-bottom: 60px;
+}
+
+.travel-heading{
+    font-size: 35px;
+}
+
+.travel_stars{
+    font-size: 25px;
+    color: #FFD700;
+}
